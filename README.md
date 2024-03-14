@@ -3,6 +3,8 @@ Online bookstore application using Spring Boot. This project will allow users to
 
 Features:
 
+Swagger UI for API Documentation
+
 User Authentication and Authorization: Implement user authentication and authorization using Spring Security. Users should be able to sign up, log in, and access their account.
 
 Book Catalog: Develop a catalog of books with features like browsing by category, searching by title or author, and viewing book details.
