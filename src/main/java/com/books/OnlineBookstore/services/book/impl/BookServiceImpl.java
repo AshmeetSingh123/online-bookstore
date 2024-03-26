@@ -29,11 +29,7 @@ public class BookServiceImpl implements BookService {
     @Override
     public BookBean findById(String id) {
         Optional<BookBean> result = repo.findById(id);
-        if(result != null && result.isPresent()){
-            return result.get();
-        } else {
-            return null;
-        }
+        return result.orElse(null);
     }
 
     @Override
